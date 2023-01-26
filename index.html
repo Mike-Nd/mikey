@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Get the most tasty food of your choice" />
+    <title>Tasty Food.</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body>
+    <header class="block nav__container">
+      <nav class="nav collapsible">
+        <a class="nav__brand" href="#">Tasty</a>
+        <svg class="icon icon--black nav__toggler">
+          <use href="images/sprite.svg#menu"></use>
+        </svg>
+
+        <ul class="nav__list collapsible__content">
+          <li class="nav__item home" id="home"><a href="#">Home</a></li>
+          <li class="nav__item"><a href="#">About</a></li>
+          <li class="nav__item"><a href="#">Menu</a></li>
+          <li class="nav__item"><a href="#">Services</a></li>
+          <li class="nav__item"><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+
+    <div class="blocks hero" data-aos="fade-right">
+      <div class="container grid grid--1x2">
+        <header class="block--header hero__content">
+          <a href="#">
+            <h1 class="block__heading">Tasty food</h1>
+          </a>
+          <p class="hero__tagline">Try the best food of the week.</p>
+          <a href="#" class="btn btn--accent btn--stretched">View Menu</a>
+        </header>
+        <img
+          class="hero__image"
+          src="images/home.png"
+          alt="home image"
+        />
+      </div>
+    </div>
+
+    <section class="block container">
+      <article class="grid grid--1x2 features">
+        <div class="features__content" data-aos="fade-left">
+          <h4 class="features__heading">About us</h4>
+          <h2 class="hero__tagline">We cook the best tasty food</h2>
+          <p>
+            We cook the best food in the city, with excellent customer service,
+            the best meal and the best price, visit us.
+          </p>
+          <a href="#"
+            ><button class="btn btn--accent">Explore history</button></a
+          >
+        </div>
+        <img
+          class="features__image"
+          data-aos="zoom-in"
+          src="images/about.jpg"
+          alt=""
+        />
+      </article>
+    </section>
+
+    <section data-aos="slide-up" class="block">
+      <header class="block--header">
+        <h4 class="features__heading" h4>Offering</h4>
+        <h2 class="hero__tagline">Our amazing services</h2>
+      </header>
+      <div class="container media__container grid grid--1x3">
+        <div class="media">
+          <div class="media__image">
+            <img src="images/dish.svg" alt="dish image" />
+          </div>
+          <div class="media__body">
+            <h3 class="media__title">Excellent food</h3>
+            <p>
+              We offer our clients quality services for many years, with the
+              best and delicious food in the city.
+            </p>
+          </div>
+        </div>
+
+        <div class="media">
+          <div class="media__image">
+            <img src="images/pizza.svg" alt="pizzar image" />
+          </div>
+          <div class="media__body">
+            <h3 class="media__title">Fast food</h3>
+            <p>
+              We offer our clients quality services for many years, with the
+              best and delicious food in the city.
+            </p>
+          </div>
+        </div>
+
+        <div class="media">
+          <div class="media__image">
+            <img src="images/truck.svg" alt="truck image" />
+          </div>
+          <div class="media__body">
+            <h3 class="media__title">Delivery</h3>
+            <p>
+              We offer our clients quality services for many years, with the
+              best and delicious food in the city.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container block">
+      <div>
+        <h4 class="features__heading">Special</h4>
+        <h2 class="hero__tagline">Menu of the week.</h2>
+      </div>
+      <div class="grid grid--1x2 grid--1x3 card__block" data-aos="zoom-out">
+        <div class="card">
+          <img src="images/plate1.png" alt="" class="card__image" />
+          <p class="card__text">Berbecue salad</p>
+          <p class="card__price">Delicious Dish</p>
+          <p class="card__text">$22.00</p>
+          <a href="#"><img src="images/cart.png" class="card__icon" /></a>
+        </div>
+
+        <div class="card">
+          <img src="images/plate2.png" alt="" class="card__image" />
+          <p class="card__text">Salad with fish</p>
+          <p class="card__price">Delicious Dish</p>
+          <p class="card__text">$12.00</p>
+          <a href="#"><img src="images/cart.png" class="card__icon" /></a>
+        </div>
+
+        <div class="card">
+          <img src="images/plate3.png" alt="" class="card__image" />
+          <p class="card__text">Spinach salad</p>
+          <p class="card__price">Delicious Dish</p>
+          <p class="card__text">$9.50</p>
+          <a href="#"><img src="images/cart.png" class="card__icon" /></a>
+        </div>
+
+        <div class="card">
+          <img src="images/plate3.png" alt="" class="card__image" />
+          <p class="card__text">Spinach salad</p>
+          <p class="card__price">Delicious Dish</p>
+          <p class="card__text">$9.50</p>
+          <a href="#"><img src="images/cart.png" class="card__icon" /></a>
+        </div>
+
+        <div class="card">
+          <img src="images/plate2.png" alt="" class="card__image" />
+          <p class="card__text">Salad with fish</p>
+          <p class="card__price">Delicious Dish</p>
+          <p class="card__text">$12.00</p>
+          <a href="#"><img src="images/cart.png" class="card__icon" /></a>
+        </div>
+
+        <div class="card">
+          <img src="images/plate1.png" alt="" class="card__image" />
+          <p class="card__text">Berbecue salad</p>
+          <p class="card__price">Delicious Dish</p>
+          <p class="card__text">$22.00</p>
+          <a href="#"><img src="images/cart.png" class="card__icon" /></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="contact" data-aos="slide-right">
+        <div class="contact__text">
+          <h4 class="features__heading">Let's talk</h4>
+          <h2 class="hero__tagline">Contact us</h2>
+          <p>
+            If you want a table in our resturant, contact us and we'll respond
+            to you quickly with our 24/7 service.
+          </p>
+        </div>
+        <div class="contact__button">
+          <a href="#"
+            ><button class="btn--accent btn">Contact us now</button></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer data-aos="slide-left" class="blocks footer">
+      <div class="footer-container">
+        <div class="container grid footer__sections">
+          <section class="collapsible footer__section collapsible--expanded">
+            <div class="collapsible__header">
+              <h2 class="collapsible__heading footer__heading">Services</h2>
+              <svg class="icon icon--white collapsible__chevron">
+                <use href="images/sprite.svg#chevron"></use>
+              </svg>
+            </div>
+            <div class="collapsible__content">
+              <ul class="list">
+                <li>
+                  <a href="#">Delivery</a>
+                </li>
+                <li>
+                  <a href="#">Pricing</a>
+                </li>
+                <li><a href="#">Fast food</a></li>
+                <li><a href="#">Reserve your spot </a></li>
+              </ul>
+            </div>
+          </section>
+          <section class="collapsible footer__section">
+            <div class="collapsible__header">
+              <h2 class="collapsible__heading footer__heading">Information</h2>
+              <svg class="icon icon--white collapsible__chevron">
+                <use href="images/sprite.svg#chevron"></use>
+              </svg>
+            </div>
+            <div class="collapsible__content">
+              <ul class="list">
+                <li><a href="#">Event</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Privacy policy</a></li>
+                <li><a href="#">Terms of services</a></li>
+              </ul>
+            </div>
+          </section>
+          <section class="collapsible footer__section collapsibleexpanded">
+            <div class="collapsible__header">
+              <h2 class="collapsible__heading footer__heading">Address</h2>
+              <svg class="icon icon--white collapsible__chevron">
+                <use href="images/sprite.svg#chevron"></use>
+              </svg>
+            </div>
+            <div class="collapsible__content">
+              <ul class="list">
+                <li><a href="#">Lima Peru</a></li>
+                <li><a href="#">Jr Union #99</a></li>
+                <li><a href="#">999-888-777</a></li>
+                <li><a href="#">tastyfoods@email.com</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="footer__brand">
+            <a href="#">
+              <h4 class="features__heading footer__logo">Tasty food</h4>
+            </a>
+            <p>Resturant</p>
+            <a href="#" class="footer__icon"
+              ><img src="images/facebook.jpg"
+            /></a>
+            <a href="#" class="footer__icon"
+              ><img src="images/instagram.jpg"
+            /></a>
+            <a href="#" class="footer__icon"><img src="images/twiter.jpg" /></a>
+          </div>
+        </div>
+      </div>
+      <a href="#">
+        <p class="footer__copyright block">@ 2020 All rights reserved</p>
+      </a>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
